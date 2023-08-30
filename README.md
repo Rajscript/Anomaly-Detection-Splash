@@ -15,7 +15,7 @@ One subpart of this challenge is Anomaly Detection which generates alerts on our
 
 The Problem Statement presented below highlights the problem which we are tackling right now
 
-##Column Description
+__Data Description__
 
 The description of the column are as follows:
 
