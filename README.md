@@ -4,6 +4,7 @@ This is based on the kaggle competition "[Anomaly Detection](https://www.kaggle.
 
 
 __Overview__
+
 Let us assume that, we have a company called "Splash", and you are a newly joined Machine Learning Engineer at our company, held at 30 LPA CTC. So, the below thing describes our company and the task in hand.
 
 Currently we at Splash, help retailers with pricing intelligence and business monitoring.
