@@ -36,4 +36,4 @@ We have two notebooks applying two different way of solving this problem. One of
 
 One approach to handle such class imbalance is to populate the minority class with randomly duplicated data using <span style= 'color: blue;'>**Random Sampling** </span> or generating synthetic data using <span style= 'color: blue;'>**SMOTE**</span>. This approach and its corresponding scoring metrics can be found in the [Anomaly_detection notebook](/Anomaly_detection.ipynb)
 
-The other approach is applying the in-built class imbalances handling tool in ensemble models like <span style= 'color: blue;'>**XGBoosting** </span> and <span style= 'color: blue;'>**CatBoost** </span>. This approach and their corresponding findings can be found in the [catboost notebook](Anomaly-Detection-Splash/XgboostVsCatboost.ipynb)
+The other approach is applying the in-built class imbalances handling tool in ensemble models like <span style= 'color: blue;'>**XGBoosting** </span> and <span style= 'color: blue;'>**CatBoost** </span>. This approach and their corresponding findings can be found in the [XgboostVsCatboost notebook](Anomaly-Detection-Splash/XgboostVsCatboost.ipynb)
