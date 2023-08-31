@@ -28,3 +28,12 @@ is_anomaly [ boolean ] : is a boolean value which is True if the corresponding v
 predicted [ float ] : is a real value prediction coming from a black box forecasting model for that timestamp. This black box forecasting model is assumed to be aware of only the true data distribution.
 
 Since the company is concerned about the anomaly data more than non-anomaly data, we have to be careful in making the predictions for the anomaly cases. Here we have used different ML models to compare their performances in determining the anomaly cases.
+
+
+__Methods__
+
+We have two notebooks applying two different way of solving this problem. One of the major problem in anomaly detection dataset is the data imbalance due to having considerably lesser amount of anomaly cases compared to regular ones. 
+
+One approach to handle such class imbalance is to populate the minority class with randomly duplicated data using <span style= 'color: blue;'>**Random Sampling** </span> or generating synthetic data using <span style= 'color: blue;'>**SMOTE**</span>. This approach and its corresponding scoring metrics can be found in the [Anomaly_detection notebook](Anomaly-Detection-Splash/Anomaly_detection.ipynb)
+
+The other approach is applying the in-built class imbalances handling tool in ensemble models like <span style= 'color: blue;'>**XGBoosting** </span> and <span style= 'color: blue;'>**CatBoost** </span>. This approach and their corresponding findings can be found in the [catboost notebook](Anomaly-Detection-Splash/XgboostVsCatboost.ipynb)
